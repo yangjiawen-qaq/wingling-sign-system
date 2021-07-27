@@ -1,0 +1,61 @@
+.side-container {
+  min-height: 100%;
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+}
+.side-container .img-container {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.side-container .img-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.trigger-layout {
+  margin-left: 80px;
+}
+.primary-layout {
+  margin-left: 200px;
+}
+.site-layout {
+  transition: all 0.3s;
+}
+.site-layout .header-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-layout .header-header .header-right > span {
+  display: inline-block;
+  padding: 0 10px;
+}
+.site-layout .header-header .trigger {
+  padding: 0 18px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.site-layout .header-header .trigger:hover {
+  color: #1890ff;
+}
+.site-layout .header-bottom {
+  margin: -10px 0;
+  padding: 0 10px;
+}
+.site-layout .site-layout-background {
+  background: #fff;
+  padding: 0;
+  height: 90px;
+}
+.site-layout .header-container {
+  width: 100%;
+  border-bottom: 3px solid lightgreen;
+}
+/*# sourceMappingURL=admin.css.map */
